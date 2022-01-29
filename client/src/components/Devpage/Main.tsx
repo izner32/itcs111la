@@ -4,6 +4,7 @@ import Image from 'next/image';
 function Main() {
   return (
     <>
+
       <div className="bg-foggy-gray-500 flex flex-col md:flex-row p-16 justify-center">
         <div className="mx-auto md:mx-0 mb-8 md:mb-0">
           <div 
