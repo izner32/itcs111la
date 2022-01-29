@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 
-function About() {
+function About(props) {
   return (
     <>
       <div className="w-[50%] mx-auto my-16 sm:mt-22 md:mt-27 lg:mt-32">
@@ -13,7 +13,7 @@ function About() {
           <div className="flex flex-col-reverse lg:flex-row mb-8">
             <div className="w-[80%] lg:w-[50%] flex flex-col justify-center mx-auto text-center lg:text-left">
               <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-4">General</h1>
-              <p className="text-xs sm:text-sm md:text-base lg:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus earum debitis modi, fugiat sapiente rem enim, magni praesentium corrupti labore dolore, adipisci porro et. Itaque impedit reiciendis molestias consectetur illo!</p>
+              <p className="text-xs sm:text-sm md:text-base lg:text-lg">{props.general}</p>
             </div>
             <div className="w-[50%] mx-auto mb-4 lg:mb-0">
               <img className="" src="/general.svg"></img>
@@ -22,7 +22,7 @@ function About() {
           <div className="flex flex-col-reverse lg:flex-row-reverse mb-8">
             <div className="w-[80%] lg:w-[50%] flex flex-col justify-center mx-auto text-center lg:text-right">
               <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-4">Education</h1>
-              <p className="text-xs sm:text-sm md:text-base lg:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus earum debitis modi, fugiat sapiente rem enim, magni praesentium corrupti labore dolore, adipisci porro et. Itaque impedit reiciendis molestias consectetur illo!</p>
+              <p className="text-xs sm:text-sm md:text-base lg:text-lg">{props.education}</p>
             </div>
             <div className="w-[50%] mx-auto mb-4 lg:mb-0">
               <img className="" src="/education.svg"></img>
@@ -31,7 +31,7 @@ function About() {
           <div className="flex flex-col-reverse lg:flex-row mb-8">
             <div className="w-[80%] lg:w-[50%] flex flex-col justify-center mx-auto text-center lg:text-left">
               <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-4">Interest</h1>
-              <p className="text-xs sm:text-sm md:text-base lg:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus earum debitis modi, fugiat sapiente rem enim, magni praesentium corrupti labore dolore, adipisci porro et. Itaque impedit reiciendis molestias consectetur illo!</p>
+              <p className="text-xs sm:text-sm md:text-base lg:text-lg">{props.interest}</p>
             </div>
             <div className="w-[50%] mx-auto mb-4 lg:mb-0">
               <img className="" src="/interest.svg"></img>
