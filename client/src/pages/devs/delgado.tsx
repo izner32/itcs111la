@@ -11,7 +11,7 @@ function Delgado() {
   return (
     <>
       <Nav></Nav>
-      <Main name={data_obj.devs.rudini.name} img={data_obj.devs.rudini.img} description={data_obj.devs.rudini.description}></Main>
+      <Main name={data_obj.devs.rudini.name} img={data_obj.devs.rudini.img} description={data_obj.devs.rudini.description} ig={data_obj.devs.rudini.ig}></Main>
       <About general={data_obj.devs.rudini.general} education={data_obj.devs.rudini.education} interest={data_obj.devs.rudini.interest}></About>
       <Footer></Footer>
     </>

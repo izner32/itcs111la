@@ -5,7 +5,7 @@ function Stats() {
   return (
     <>
       <div
-        className="w-full p-16 "
+        className="w-full p-16 md:p-32"
         style={{  
             backgroundImage: "url(" + "BG.png" + ")",
             backgroundPosition: 'center',

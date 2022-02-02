@@ -11,7 +11,7 @@ function Waje() {
   return (
     <>
       <Nav></Nav>
-      <Main name={data_obj.devs.mayo.name} img={data_obj.devs.mayo.img} description={data_obj.devs.mayo.description}></Main>
+      <Main name={data_obj.devs.mayo.name} img={data_obj.devs.mayo.img} description={data_obj.devs.mayo.description} ig={data_obj.devs.mayo.ig}></Main>
       <About general={data_obj.devs.mayo.general} education={data_obj.devs.mayo.education} interest={data_obj.devs.mayo.interest}></About>
       <Footer></Footer>
     </>

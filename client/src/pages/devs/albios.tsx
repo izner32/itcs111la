@@ -11,7 +11,7 @@ function Albios() {
   return (
     <>
       <Nav></Nav>
-      <Main name={data_obj.devs.shahid.name} img={data_obj.devs.shahid.img} description={data_obj.devs.shahid.description}></Main>
+      <Main name={data_obj.devs.shahid.name} img={data_obj.devs.shahid.img} description={data_obj.devs.shahid.description} ig={data_obj.devs.shahid.ig}></Main>
       <About general={data_obj.devs.shahid.general} education={data_obj.devs.shahid.education} interest={data_obj.devs.shahid.interest}></About>
       <Footer></Footer>
     </>

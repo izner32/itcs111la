@@ -1,7 +1,9 @@
 import Image from 'next/image';
-
+import { useRouter } from 'next/router'
 
 function Main(props) {
+  const router = useRouter()
+  
   return (
     <>
 
@@ -21,7 +23,7 @@ function Main(props) {
           <p className="font-base italic text-xs sm:text-base md:text-lg lg:text-xl ">Hello, it's me</p>
           <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-4 ">{props.name}</h1>
           <p className="text-xs sm:text-sm md:text-base lg:text-lg mb-6">{props.description}</p>
-          <button className="text-xs sm:text-sm md:text-base lg:text-lg transition ease-in-out delay-150 hover:-translate-y-1 bg-ironside-gray-500 hover:bg-ironside-gray-200 p-2 px-4 rounded text-white duration-300">Follow me on IG!</button>
+          <button className="text-xs sm:text-sm md:text-base lg:text-lg transition ease-in-out delay-150 hover:-translate-y-1 bg-ironside-gray-500 hover:bg-ironside-gray-200 p-2 px-4 rounded text-white duration-300" onClick={() => router.push(props.ig)}>Follow me on IG!</button>
         </div>
       </div>
     </>

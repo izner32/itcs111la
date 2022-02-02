@@ -11,7 +11,7 @@ function Carillo() {
   return (
     <>
       <Nav></Nav>
-      <Main name={data_obj.devs.renz.name} img={data_obj.devs.renz.img} description={data_obj.devs.renz.description}></Main>
+      <Main name={data_obj.devs.renz.name} img={data_obj.devs.renz.img} description={data_obj.devs.renz.description} ig={data_obj.devs.renz.ig}></Main>
       <About general={data_obj.devs.renz.general} education={data_obj.devs.renz.education} interest={data_obj.devs.renz.interest}></About>
       <Footer></Footer>
     </>
