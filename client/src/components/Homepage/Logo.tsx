@@ -4,38 +4,40 @@ import styles from './logo.module.css';
 function Logo() {
   return (
     <>
-      <div className="">
-        <div className="text-center">
-          <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-4"> Built for </h1>
-          <h1>Final Project in ITCS111LA</h1>
-          <div >
-              <img className="mx-auto" src="https://www.dlsud.edu.ph/images/logo.png" alt="logo.png" width="400" height="100"></img>
+      <div className="mt-16 md:mt-32">
+        <div className="w-[60%] mx-auto text-center flex flex-col items-center md:justify-center md:flex-row md:text-left mb-16">
+          <div>
+            <h1 className="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-4"> Built for </h1>
+            <h1 className="text-[0.65rem] sm:text-[0.70rem] md:text-xs lg:text-base mb-4">Final Project in ITCS111LA</h1>
+          </div>
+          <div className="md:ml-20">
+              <img className="w-auto h-12 md:h-16 object-cover" src="https://www.dlsud.edu.ph/images/logo.png" alt="logo.png" width="400" height="100"></img>
           </div>
         </div>
 
         <div >
-          <h1>Who are we?</h1>
+          <h1 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-center mb-8">Who are we?</h1>
         </div>
-        <div className="">
-          <div>
-            <h1>Albios, Shahid</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales tristique sapien, id lobortis odio convallis vitae. Duis vehicula enim in condimentum consectetur. Fusce a magna eget augue gravida maximus. Etiam dapibus nisi at massa rhoncus, sed aliquam nulla finibus. Duis urna erat, placerat a euismod pretium, fermentum sed lacus. Morbi non urna vitae ante ornare blandit eget sed mauris. Fusce consequat nisi nec leo vestibulum euismod. Sed hendrerit, elit et varius vestibulum, ante neque consequat nulla, et pretium purus diam in orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae...</p>
-            <button>Explore →</button>
+        <div className="overflow-hidden px-[18%] mx-auto flex flex-wrap justify-center">
+          <div className="w-48 float-left m-4 ">
+            <h1 className="text-xs sm:text-sm md:text-base lg:text-lg font-semibold">Albios, Shahid</h1>
+            <p className="text-[0.65rem] sm:text-xs md:text-sm lg:text-base mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales tristique sapien, id lobortis odio convallis vitae</p>
+            <a className="text-[0.65rem] sm:text-xs md:text-sm lg:text-base">Explore →</a>
           </div>
-          <div>
-            <h1>Albios, Shahid</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales tristique sapien, id lobortis odio convallis vitae. Duis vehicula enim in condimentum consectetur. Fusce a magna eget augue gravida maximus. Etiam dapibus nisi at massa rhoncus, sed aliquam nulla finibus. Duis urna erat, placerat a euismod pretium, fermentum sed lacus. Morbi non urna vitae ante ornare blandit eget sed mauris. Fusce consequat nisi nec leo vestibulum euismod. Sed hendrerit, elit et varius vestibulum, ante neque consequat nulla, et pretium purus diam in orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae...</p>
-            <button>Explore →</button>
+          <div className="w-48 float-left m-4">
+            <h1 className="text-xs sm:text-sm md:text-base lg:text-lg font-semibold">Albios, Shahid</h1>
+            <p className="text-[0.65rem] sm:text-xs md:text-sm lg:text-base mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales tristique sapien, id lobortis odio convallis vitae.</p>
+            <a className="text-[0.65rem] sm:text-xs md:text-sm lg:text-base">Explore →</a>
           </div>
-          <div>
-            <h1>Albios, Shahid</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales tristique sapien, id lobortis odio convallis vitae. Duis vehicula enim in condimentum consectetur. Fusce a magna eget augue gravida maximus. Etiam dapibus nisi at massa rhoncus, sed aliquam nulla finibus. Duis urna erat, placerat a euismod pretium, fermentum sed lacus. Morbi non urna vitae ante ornare blandit eget sed mauris. Fusce consequat nisi nec leo vestibulum euismod. Sed hendrerit, elit et varius vestibulum, ante neque consequat nulla, et pretium purus diam in orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae...</p>
-            <button>Explore →</button>
+          <div className="w-48 float-left m-4">
+            <h1 className="text-xs sm:text-sm md:text-base lg:text-lg font-semibold">Albios, Shahid</h1>
+            <p className="text-[0.65rem] sm:text-xs md:text-sm lg:text-base mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales tristique sapien, id lobortis odio convallis vitae.</p>
+            <a className="text-[0.65rem] sm:text-xs md:text-sm lg:text-base">Explore →</a>
           </div>
-          <div>
-            <h1>Albios, Shahid</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales tristique sapien, id lobortis odio convallis vitae. Duis vehicula enim in condimentum consectetur. Fusce a magna eget augue gravida maximus. Etiam dapibus nisi at massa rhoncus, sed aliquam nulla finibus. Duis urna erat, placerat a euismod pretium, fermentum sed lacus. Morbi non urna vitae ante ornare blandit eget sed mauris. Fusce consequat nisi nec leo vestibulum euismod. Sed hendrerit, elit et varius vestibulum, ante neque consequat nulla, et pretium purus diam in orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae...</p>
-            <button>Explore →</button>
+          <div className="w-48 float-left m-4 ">
+            <h1 className="text-xs sm:text-sm md:text-base lg:text-lg font-semibold">Albios, Shahid</h1>
+            <p className="text-[0.65rem] sm:text-xs md:text-sm lg:text-base mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales tristique sapien, id lobortis odio convallis vitae.</p>
+            <a className="text-[0.65rem] sm:text-xs md:text-sm lg:text-base">Explore →</a>
           </div>
         </div>
       </div>
