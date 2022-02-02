@@ -14,7 +14,7 @@ function Stats() {
           }}>
         <div className="w-[50%] mx-auto">
           <div className="text-center mb-8">
-            <h1 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">Some&nbsp;info&nbsp;that&nbsp;matters</h1>
+            <h1 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">Some info that matters</h1>
             <p className="text-[0.65rem] sm:text-[0.70rem] md:text-xs lg:text-base ">About us depicted in numbers</p>
           </div>
           <div className="flex text-center">
