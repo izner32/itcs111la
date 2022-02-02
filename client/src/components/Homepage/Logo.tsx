@@ -4,7 +4,7 @@ import styles from './logo.module.css';
 function Logo() {
   return (
     <>
-      <div className="mt-16 md:mt-32">
+      <div className="my-16 md:my-32">
         <div className="w-[60%] mx-auto text-center flex flex-col items-center md:justify-center md:flex-row md:text-left mb-16">
           <div>
             <h1 className="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-4"> Built for </h1>
