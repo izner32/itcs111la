@@ -10,7 +10,7 @@ function Logo(props) {
         <div className="w-[60%] mx-auto text-center flex flex-col items-center md:justify-center md:flex-row md:text-left mb-16">
           <div>
             <h1 className="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-4"> Built for </h1>
-            <h1 className="text-[0.65rem] sm:text-[0.70rem] md:text-xs lg:text-base mb-4">Final Project in ITCS111LA</h1>
+            <h1 className="text-[0.65rem] sm:text-[0.70rem] md:text-xs lg:text-base mb-4">Final Project in ITCS111</h1>
           </div>
           <div className="md:ml-20">
               <img className="w-auto h-12 md:h-16 object-cover" src="https://www.dlsud.edu.ph/images/logo.png" alt="logo.png" width="400" height="100"></img>
