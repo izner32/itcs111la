@@ -19,7 +19,7 @@ function Main(props) {
               }}
           ></div>
         </div>
-        <div className="w-[80%] text-center my-auto mx-auto md:mx-0">
+        <div className="w-[80%] md:w-[40%] text-center my-auto mx-auto md:mx-0">
           <p className="font-base italic text-xs sm:text-base md:text-lg lg:text-xl ">Hello, it's me</p>
           <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-4 ">{props.name}</h1>
           <p className="text-xs sm:text-sm md:text-base lg:text-lg mb-6">{props.description}</p>
