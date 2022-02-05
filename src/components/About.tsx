@@ -4,7 +4,8 @@ import Image from 'next/image';
 function About(props) {
   return (
     <>
-      <div className="w-[50%] mx-auto my-16 sm:mt-22 md:mt-27 lg:mt-32">
+    <div className="bg-blue-100">
+      <div className="w-[50%] mx-auto py-16 sm:pt-22 md:pt-27 lg:pt-32">
         <div className="text-center mb-8 sm:mb-10 md:mb-12 lg:mb-14">
           <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold ">About me</h1>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl font-light italic">yes, me - we couldn't think of a subheadline :(</p>
@@ -38,6 +39,7 @@ function About(props) {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   )

@@ -1,40 +1,11 @@
 {
-    "devs":{
-        "renz":{
-            "name":"Renz Carillo",
-            "description":"He is an aspiring data engineer, currently learning apache spark, airflow, kafka, docker and aws. ",
-            "img":"https://i.ibb.co/0mZsVjy/272874034-980808252851026-3403020002834528982-n.jpg",
-            "ig":"https://www.instagram.com/ricardo.renz/",
-            "general":"As a child he has been very interested with anything related to tech, huge part of him sometimes wonder why he took architecture last school year. Weird fact about him: his peak typing speed is 132 wpm, which is part of the top 1% according to 10fastfingers. ",
-            "education":"He took Senior High School in Rogationist College, located at Silang, Cavite. He was a 1st year architecture student last school year at DLSU-D. ",
-            "interest":"He's very interested in business, software engineering, and real estate yet his net worth is <1000 pesos and still broke."
-        },
-        "shahid":{
-            "name":"Shahid Albios",
-            "description":"He is a freelance graphic designer who someday wants to design a website and be a creator",
-            "img":"https://i.ibb.co/rbfvRq4/271985416-609848127092959-439098944319456491-n.png",
-            "ig":"https://www.instagram.com/ShadeAlbios/?funlid=OWjKJRr9ljVIJPM8",
-            "general":"Shahid Albios was born on August 23, 2001 at Tagaytay City, Cavite. He was the first child of Gyorgy Kucska and Jocelyn Albios. They then moved out and lived on Manila so Shahid can study but after 2 years they goes back to Tagaytay and live there up until now. He have 3 siblings, Shanin Albios, Maria Vanissa Kucska, and Mark Adam Kucska. He was a friendly that really gets in trouble but after some time he then grows up with discipline and respect towards other people.",
-            "education":"Shahid Albios first started his education on Manila as a nursery and kinder student but after a year he continued his elementary education on St. Francis of Assisi Academy Tagaytay City, Cavite. Shahid then went to Rogationist College Silang, Cavite to attend high school and senior high school as well. Now he is pursuing computer science course on De La Salle University Dasmarina City, Cavite.",
-            "interest":"Shahid Albios want to improve his coding skills especially web developing and web designing. He also like graphic designing as was being commissioned by users on twitter when they needed some headers. He was into it that he mastered using photoshop. He also love video editing and was a school video editor on plectrum back on his senior high days. Shahid Albios wants to be creative and someday be a creator."
-        },
-        "rudini":{
-            "name":"Rudini Delgado",
-            "description":"He is an aspiring software developer and also interested in web development. He is currently learning css and javascript.",
-            "img":"https://i.ibb.co/KVkLwqR/delgado.jpg",
-            "ig":"https://www.instagram.com/rdn_delgado/",
-            "general":"He is Sean Rudini Immanuel R. Delgado. He is an 18 years old student from De La Salle University - Dasmariñas. He was born in San Jose, Occidental Mindoro. He was the eldest child in his family with 3 siblings. His parents works at DepED and were both professional teachers.",
-            "education":"He goes to public school from elementary to high school in Occidental Mindoro province. His recent school attended was St. Joseph's College of Quezon City where he graduated in STEM track for the Senior High school level.",
-            "interest":"His interests suit logic and analysis. In terms of sports, He's more into playing chess but also like playing basketball. He is currently taking Bachelor of Science in Computer Science in College and is very interested in web development and software development."
-        },
-        "mayo":{
-            "name":"Mayolito Waje",
-            "description":"He is an aspiring web and A.I. developer. He is currently learning ruby",
-            "img":"https://i.ibb.co/dBh87dz/272826016-1074970506688132-7756961354970309716-n.jpg",
-            "ig":"https://www.instagram.com/waje08/",
-            "general":"Hi! My name is Mayolito C. Waje. I was born on May 08, 2001 and I am currently 20 years old. Currently in 1st year college and taking Bachelor of Computer Science at DLSU-D. I used to be a BS Accountancy student but dropped after just a single semester. My favorite past-time is reading a book especially novels. I also love learning web-development through self-study whenever I have free time.",
-            "education":"Before studying at DLSU-D, I used to be a senior high school student at Emilio Aguinaldo College. My grades were good compared to my junior high school days as I got a with honor achievement on 11th grade and with high honor achievement in my 12th grade. I don't really used to join competitions that much so I don't really have awards aside from academic achievement I mentioned.",
-            "interest":"I want to get good at web development. I am currently self-studying it and my progress has been good so far. I also took an interest in AI development as I can see my future in it so I plan on taking it as my special track in later years of my college. I also want to read more books (especially Japanese light novels) as much as possible since there are so many interesting titles that I want to read :)"
-        }
+    "renz":{
+        "name":"Renz Carillo",
+        "description":"He is an aspiring data engineer, currently learning apache spark, airflow, kafka, docker and aws. ",
+        "img":"https://i.ibb.co/0mZsVjy/272874034-980808252851026-3403020002834528982-n.jpg",
+        "li":"https://www.linkedin.com/in/renz-carillo-1b606a1b0/",
+        "general":"As a child he has been very interested with anything related to tech, huge part of him sometimes wonder why he took architecture last school year. Weird fact about him: his peak typing speed is 132 wpm, which is part of the top 1% according to 10fastfingers. ",
+        "education":"He took Senior High School in Rogationist College, located at Silang, Cavite. He was a 1st year architecture student last school year at DLSU-D. ",
+        "interest":"He's very interested in business, software engineering, and real estate yet his net worth is <1000 pesos and still broke."
     }
 }
